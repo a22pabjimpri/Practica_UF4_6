@@ -8,24 +8,24 @@ public class Partit1 {
     
 
     Partit1(String equipLocal, String equipVisitant) {
-        this.nomEquipLocal = equipLocal;
-        this.nomEquipVisitant = equipVisitant;
-        this.golsEquipLocal = 0;
-        this.golsEquipVisitant = 0;
+        nomEquipLocal = equipLocal;
+        nomEquipVisitant = equipVisitant;
+        golsEquipLocal = 0;
+        golsEquipVisitant = 0;
     }
 
     Partit1(String equipLocal, String equipVisitant, int golsLocal, int golsVisitant) {
-        this.nomEquipLocal = equipLocal;
-        this.nomEquipVisitant = equipVisitant;
-        this.golsEquipLocal = golsLocal;
-        this.golsEquipVisitant = golsVisitant;
+        nomEquipLocal = equipLocal;
+        nomEquipVisitant = equipVisitant;
+        golsEquipLocal = golsLocal;
+        golsEquipVisitant = golsVisitant;
     }
 
     public void marcaEquipLocal() {
-        this.golsEquipLocal++;
+        golsEquipLocal++;
     }
     public void marcaEquipVisitant() {
-        this.golsEquipVisitant++;
+        golsEquipVisitant++;
     }
     
     public void marcador(){
