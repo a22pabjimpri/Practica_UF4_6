@@ -30,7 +30,7 @@ public class Partit1 {
     
     public void marcador(){
         System.out.println("Local " + nomEquipLocal + " " + golsEquipLocal + " : " + 
-        golsEquipVisitant + " " + nomEquipVisitant);
+        golsEquipVisitant + " " + nomEquipVisitant + " Visitant");
     }
     
     public void fi (){
