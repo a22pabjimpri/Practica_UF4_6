@@ -6,6 +6,8 @@ public class Partit2 {
     private Equip equipLocal, equipVisitant;
     private int estatPartit;
 
+    
+
     public Partit2(Equip equipLocal, Equip equipVisitant) {
         this.equipLocal = equipLocal;
         this.equipVisitant = equipVisitant;
@@ -23,8 +25,7 @@ public class Partit2 {
         actualitzaPuntsLliga();
     }
     
-    
-
+   
     public void iniciarPartit() {
         estatPartit = 1;
     }
@@ -75,21 +76,13 @@ public class Partit2 {
             }
         }
     }
-
-    public String getNomEquipLocal() {
-        return nomEquipLocal;
+    
+    public int getEstatPartit() {
+        return estatPartit;
     }
 
-    public void setNomEquipLocal(String nomEquipLocal) {
-        this.nomEquipLocal = nomEquipLocal;
-    }
-
-    public String getNomEquipVisitant() {
-        return nomEquipVisitant;
-    }
-
-    public void setNomEquipVisitant(String nomEquipVisitant) {
-        this.nomEquipVisitant = nomEquipVisitant;
+    public void setEstatPartit(int estatPartit) {
+        this.estatPartit = estatPartit;
     }
 
     public int getGolsEquipLocal() {
