@@ -19,7 +19,7 @@ public class Practica6 {
         p1.fi();
         
         Equip e1 = new Equip("Real Madrid");
-        Equip e2 = new Equip("FC Negreira");
+        Equip e2 = new Equip("FC Barcelona");
         
         Partit2 p2 = new Partit2(e1, e2);
         
